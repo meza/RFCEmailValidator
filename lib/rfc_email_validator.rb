@@ -91,7 +91,7 @@ class RFCEmailValidator
 
 
   def self.valid?(email)
-    puts @regexp === email
+    @regexp === email
   end
 
 end
